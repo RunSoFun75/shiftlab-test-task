@@ -486,7 +486,7 @@
 ## 4.Author 
 **Базаров Андрей**
 
-**gmail**: a.bazarov1@g.nsu.ru
+**Gmail**: a.bazarov1@g.nsu.ru
 
 **Telegram**: https://t.me/RunSoFun
 
