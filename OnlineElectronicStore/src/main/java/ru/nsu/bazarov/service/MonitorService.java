@@ -1,7 +1,7 @@
-package ru.nsu.bazarov.OnlineElectronicStore.Service;
+package ru.nsu.bazarov.service;
 
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.Monitor;
-import ru.nsu.bazarov.OnlineElectronicStore.Repository.MonitorRepository;
+import ru.nsu.bazarov.entity.Monitor;
+import ru.nsu.bazarov.repository.MonitorRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

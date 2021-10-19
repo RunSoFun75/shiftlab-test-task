@@ -1,7 +1,7 @@
-package ru.nsu.bazarov.OnlineElectronicStore.Service;
+package ru.nsu.bazarov.service;
 
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.Laptop;
-import ru.nsu.bazarov.OnlineElectronicStore.Repository.LaptopRepository;
+import ru.nsu.bazarov.entity.Laptop;
+import ru.nsu.bazarov.repository.LaptopRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

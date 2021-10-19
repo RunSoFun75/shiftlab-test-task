@@ -1,4 +1,4 @@
-package ru.nsu.bazarov.OnlineElectronicStore.Entity;
+package ru.nsu.bazarov.entity;
 
 import lombok.Data;
 

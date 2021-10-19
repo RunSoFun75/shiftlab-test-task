@@ -1,4 +1,4 @@
-package ru.nsu.bazarov.OnlineElectronicStore.Entity;
+package ru.nsu.bazarov.entity;
 
 import lombok.Data;
 
@@ -7,8 +7,8 @@ import javax.persistence.Entity;
 
 @Data
 @Entity
-public final class Monitor extends Product {
+public final class Laptop extends Product {
 
     @Column(name = "diagonal")
-    private double diagonal;
+    private int diagonal;
 }

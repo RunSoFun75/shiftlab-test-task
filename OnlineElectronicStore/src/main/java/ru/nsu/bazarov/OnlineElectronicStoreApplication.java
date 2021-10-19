@@ -1,4 +1,4 @@
-package ru.nsu.bazarov.OnlineElectronicStore;
+package ru.nsu.bazarov;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package ru.nsu.bazarov.OnlineElectronicStore.Service;
+package ru.nsu.bazarov.service;
 
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.HardDrive;
-import ru.nsu.bazarov.OnlineElectronicStore.Repository.HardDriveRepository;
+import ru.nsu.bazarov.entity.HardDrive;
+import ru.nsu.bazarov.repository.HardDriveRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,13 +1,13 @@
-package ru.nsu.bazarov.OnlineElectronicStore.Controller;
+package ru.nsu.bazarov.controller;
 
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.Computer;
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.HardDrive;
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.Laptop;
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.Monitor;
-import ru.nsu.bazarov.OnlineElectronicStore.Service.ComputerService;
-import ru.nsu.bazarov.OnlineElectronicStore.Service.HardDriveService;
-import ru.nsu.bazarov.OnlineElectronicStore.Service.LaptopService;
-import ru.nsu.bazarov.OnlineElectronicStore.Service.MonitorService;
+import ru.nsu.bazarov.entity.Computer;
+import ru.nsu.bazarov.entity.HardDrive;
+import ru.nsu.bazarov.entity.Laptop;
+import ru.nsu.bazarov.entity.Monitor;
+import ru.nsu.bazarov.service.ComputerService;
+import ru.nsu.bazarov.service.HardDriveService;
+import ru.nsu.bazarov.service.LaptopService;
+import ru.nsu.bazarov.service.MonitorService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
-package ru.nsu.bazarov.OnlineElectronicStore.Repository;
+package ru.nsu.bazarov.repository;
 
-import ru.nsu.bazarov.OnlineElectronicStore.Entity.Computer;
+import ru.nsu.bazarov.entity.Computer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
