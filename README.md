@@ -12,7 +12,7 @@
 
 + Протестировать сервис можно с помощью программы [**Postman**](https://www.postman.com/)
 
-### Response Codes
+#### Response Codes
 
 ```
 200: Ok
@@ -30,7 +30,7 @@
 
 + форм-фактор может быть только следующих видов: "DESKTOP", "NETTOP", ""MONOBLOCK
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -40,7 +40,7 @@
     "formFactor": "DESKTOP"
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `201`
 ```json
 {
@@ -52,12 +52,12 @@
     "formFactor": "DESKTOP"
 }
 ```
-#### Failed Response:
-**Status:** `400`
+##### Failed Response:
+***Status:*** `400`
 
 #### Add hardDrive
 `POST http://localhost:8080/store/products/hardDrives`
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -67,8 +67,8 @@
     "capacity": "256GB"
 }
 ```
-#### Successful Response:
-**Status:** `201`
+##### Successful Response:
+***Status:*** `201`
 ```json
 {
     "id" : 2,
@@ -79,12 +79,12 @@
     "capacity": "256GB"
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `400`
 
 #### Add Laptop
 `POST http://localhost:8080/store/products/laptops`
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -94,7 +94,7 @@
     "diagonal": 15
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `201`
 ```json
 {
@@ -106,12 +106,12 @@
     "diagonal": 15
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `400`
 
 #### Add Monitor
 `POST http://localhost:8080/store/products/monitors`
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -121,7 +121,7 @@
     "diagonal": 23.5
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `201`
 ```json
 {
@@ -133,7 +133,7 @@
     "diagonal": 23.5
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `400`
 
 ------------------
@@ -147,7 +147,7 @@
 
 + Каждый продукт независимо от типа техники имеет свой уникальный id
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -157,7 +157,7 @@
     "formFactor": "NETTOP"
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `200`
 ```json
 {
@@ -169,7 +169,7 @@
     "formFactor": "NETTOP"
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Edit hardDrive
@@ -177,7 +177,7 @@
 
 + Каждый продукт независимо от типа техники имеет свой уникальный id
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -187,7 +187,7 @@
     "capacity": "1000GB"
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `200`
 ```json
 {
@@ -199,7 +199,7 @@
     "capacity": "1000GB"
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Edit Laptop
@@ -207,7 +207,7 @@
 
 + Каждый продукт независимо от типа техники имеет свой уникальный id
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -217,7 +217,7 @@
     "diagonal": 17
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `200`
 ```json
 {
@@ -229,7 +229,7 @@
     "diagonal": 17
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Edit Monitor
@@ -237,7 +237,7 @@
 
 + Каждый продукт независимо от типа техники имеет свой уникальный id
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -247,7 +247,7 @@
     "diagonal": 25
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `200`
 ```json
 {
@@ -259,7 +259,7 @@
     "diagonal": 25
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 -------------------------
@@ -269,14 +269,14 @@
 #### Get computers
 `GET http://localhost:8080/store/products/computers`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
     
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `200`
 
 ```json
@@ -289,13 +289,13 @@
     "formFactor": "NETTOP"
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Get hardDrives
 `GET http://localhost:8080/store/products/hardDrives`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -303,7 +303,7 @@
 }
 ```
 
-#### Successful Response:
+##### Successful Response:
 
 **Status:** `200`
 ```json
@@ -316,13 +316,13 @@
     "capacity": "1000GB"
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Get laptops
 `GET http://localhost:8080/store/products/laptops`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -330,7 +330,7 @@
 }
 ```
 
-#### Successful Response:
+##### Successful Response:
 
 **Status:** `200`
 ```json
@@ -343,13 +343,13 @@
     "diagonal": 17
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Get monitors
 `GET http://localhost:8080/store/products/monitors`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -357,7 +357,7 @@
 }
 ```
 
-#### Successful Response:
+##### Successful Response:
 
 **Status:** `200`
 ```json
@@ -370,7 +370,7 @@
     "diagonal": 25
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 -------------------
@@ -379,14 +379,14 @@
 #### Get computer by id
 `GET http://localhost:8080/store/products/computer/{id}`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
     
 }
 ```
-#### Successful Response:
+##### Successful Response:
 **Status:** `200`
 
 ```json
@@ -399,13 +399,13 @@
     "formFactor": "NETTOP"
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Get hardDrive by id
 `GET http://localhost:8080/store/products/hardDrive/{id}`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -413,7 +413,7 @@
 }
 ```
 
-#### Successful Response:
+##### Successful Response:
 
 **Status:** `200`
 ```json
@@ -426,13 +426,13 @@
     "capacity": "1000GB"
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Get laptop by id
 `GET http://localhost:8080/store/products/laptop/{id}`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -440,7 +440,7 @@
 }
 ```
 
-#### Successful Response:
+##### Successful Response:
 
 **Status:** `200`
 ```json
@@ -453,13 +453,13 @@
     "diagonal": 17
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 #### Get monitor by id
 `GET http://localhost:8080/store/products/monitor/{id}`
 
-#### Request Body:
+##### Request Body:
 
 ```json
 {
@@ -467,7 +467,7 @@
 }
 ```
 
-#### Successful Response:
+##### Successful Response:
 
 **Status:** `200`
 ```json
@@ -480,7 +480,7 @@
     "diagonal": 25
 }
 ```
-#### Failed Response:
+##### Failed Response:
 **Status:** `404`
 
 ## 4.Author 
